@@ -20,7 +20,7 @@ const append = (message,position) => {
 
 //server ne data send kare che
 
-const name = prompt('enter your name to join'); //uuu
+const name = alert('enter your name to join'); //uuu
 socket.emit('new-user-joined', name);
 
 //server side thi data le che
